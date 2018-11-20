@@ -1,5 +1,6 @@
 package Unit1;
 /*
+	1.1.12
 	以下代码段会打印出什么结果？
 	int[] a = new int[10]
 	for(int i=0; i<10; i++)

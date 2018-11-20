@@ -3,6 +3,7 @@ package Unit1;
 import java.util.Scanner;
 
 /*
+	1.1.14
 	编写一个静态方法lg(),接受一个整型参数N，返回不大于log2N的最大整数。不要使用Math库。
 */
 
