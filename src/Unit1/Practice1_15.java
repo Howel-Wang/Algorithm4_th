@@ -31,9 +31,10 @@ public class Practice1_15 {
 		for(int i = 0;i<a.length;i++) {
 			a[i] = 3*i;
 		}
-		for(int i = 0;i<histogram(a,M).length;i++) {
-			System.out.println(histogram(a,M)[i]);
-			sum+=histogram(a,M)[i];
+		int [] b = histogram(a,M);
+		for(int i = 0;i<b.length;i++) {
+			System.out.println(b[i]);
+			sum+=b[i];
 		}
 		System.out.println(sum);
 	}
