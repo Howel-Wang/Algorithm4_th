@@ -22,7 +22,7 @@ package Unit1;
 }
 */
 
-public class Practice1_22 {
+public class Practice1_1_22 {
 	public static int rank(int key, int[] a) {
 		return rank(key, a,0,16,1);
 	}

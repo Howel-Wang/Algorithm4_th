@@ -6,7 +6,7 @@ package Unit1;
 
 import java.util.Scanner;
 
-public class Practice1_20 {
+public class Practice1_1_20 {
 	private static double logarithmic(int N){
 		if(N == 0){
 			return 0;

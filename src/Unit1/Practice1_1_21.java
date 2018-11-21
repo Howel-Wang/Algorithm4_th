@@ -9,7 +9,7 @@ package Unit1;
 
 import java.util.Scanner;
 
-public class Practice1_21 {
+public class Practice1_1_21 {
 	public static void main(String[] args){
 		Scanner in = new Scanner(System.in);
 		int M = 3;
