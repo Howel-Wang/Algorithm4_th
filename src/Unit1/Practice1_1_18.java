@@ -12,7 +12,7 @@ package Unit1;
 	计算的结果是什么？将代码中的+替换为*并将return 0改为return 1,然后回答相同的问题。
 */
 
-public class Practice1_18 {
+public class Practice1_1_18 {
 
 	public static int mystery(int a, int b){
 		if(b == 0){

@@ -15,7 +15,7 @@ package Unit1;
 		}
 	}
 */
-public class Practice1_19 {
+public class Practice1_1_19 {
 	public static long F(int N){
 		if(N == 0) return 0;
 		if(N == 1) return 1;
