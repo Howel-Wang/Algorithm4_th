@@ -1,4 +1,4 @@
-package foundation;
+
 /*
 	1.1.2
 	给出以下表达式的类型和值:
@@ -6,7 +6,7 @@ package foundation;
 	b. 1 + 2 + 3 + 4.0
 	c. 4.1 >= 4
 	d. 1 + 2 + "3" 
- */
+*/
 
 public class Practice1_1_2 {
 
