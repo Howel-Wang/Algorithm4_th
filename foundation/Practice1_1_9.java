@@ -1,4 +1,4 @@
-package foundation;
+
 /*
 	1.1.9
 	编写一段代码，将一个正整数 N 用二进制表示并转换为一个 String 类型的值 s。

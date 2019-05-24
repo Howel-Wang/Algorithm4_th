@@ -1,4 +1,4 @@
-package foundation;
+
 /*		
 	1.1.6
 	下面这段程序会打印出什么?

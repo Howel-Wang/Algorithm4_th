@@ -1,4 +1,4 @@
-package foundation;
+
 /*
 	1.1.22
 	使用1.1.6.4节中的rank()递归方法重新实现BinarySearch并跟踪该方法的调用。每当该方法

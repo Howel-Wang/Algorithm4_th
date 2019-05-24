@@ -1,4 +1,4 @@
-package foundation;
+
 /*
 	1.1.23
 	为BinarySearch的测试用例添加一个参数: + 打印出标准输入中不在白名单上的值;

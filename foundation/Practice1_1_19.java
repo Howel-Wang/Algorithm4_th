@@ -1,4 +1,4 @@
-package foundation;
+
 /*
 	1.1.19
 	在计算机上运行一下程序

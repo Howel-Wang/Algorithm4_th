@@ -1,4 +1,3 @@
-package foundation;
 
 /*		
 	1.1.7

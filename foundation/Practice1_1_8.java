@@ -1,4 +1,4 @@
-package foundation;
+
 /*
 	1.1.8
 	给出以下表达式的值:

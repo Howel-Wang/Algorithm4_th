@@ -1,4 +1,4 @@
-package foundation;
+
 /*
 ?	1.1.10
 ?	下面这段代码有什么问题？

@@ -1,4 +1,3 @@
-package foundation;
 
 /*
 	编写一个递归的静态方法计算ln(N!)的值。
