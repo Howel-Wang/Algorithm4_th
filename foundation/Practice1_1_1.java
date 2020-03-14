@@ -11,5 +11,6 @@ public class Practice1_1_1 {
 		System.out.println((0+15)/5);
 		System.out.println(2.0e-6*100000000.1);
 		System.out.println(true&&false||true&&true);
+		
 	}
 }
