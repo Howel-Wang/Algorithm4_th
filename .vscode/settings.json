@@ -1,6 +1,0 @@
-{
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home/lib/algs4.jar"
-    ]
-}
