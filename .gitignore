@@ -1,7 +1,0 @@
-*.class
-*.txt
-.vscode/
-.DS_Store
-*.csv
-*.bin
-bin/
