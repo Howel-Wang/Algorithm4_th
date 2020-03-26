@@ -1,7 +1,0 @@
-{
-    "java.dependency.syncWithFolderExplorer": true,
-    "java.dependency.packagePresentation": "flat",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ],
-}
