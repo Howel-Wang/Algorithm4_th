@@ -1,7 +1,6 @@
 *.class
 *.txt
 .vscode/
-settings.json
 .DS_Store
 *.csv
 *.bin
