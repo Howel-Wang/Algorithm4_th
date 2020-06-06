@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 解答：Java 有一个内置方法 Integer.toBinaryString(N) 专门完成这个任务，但该题的目的就 是给出这个方法的其他实现方法。下面就是一个特别简洁的答案：
  * String s = "";
  * for (int n = N; n > 0; n /= 2)
- *     s = (n % 2) + s;
+ * s = (n % 2) + s;
  *
  * @author howel
  */
