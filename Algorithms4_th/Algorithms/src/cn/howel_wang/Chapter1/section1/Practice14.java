@@ -1,4 +1,4 @@
-package Practice1_1;
+package cn.howel_wang.Chapter1.section1;
 
 import edu.princeton.cs.algs4.StdOut;
 
@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author howel
  */
-public class Practice1_1_14 {
+public class Practice14 {
     public static int lg(int N) {
         int x = 0;
         int sum = 1;

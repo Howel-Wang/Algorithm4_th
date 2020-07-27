@@ -1,4 +1,4 @@
-package Practice1_1;
+package cn.howel_wang.Chapter1.section1;
 /**
  * 1.1.2
  * 给出以下表达式的类型和值：
@@ -11,11 +11,11 @@ package Practice1_1;
 /**
  * @author howel
  * @version 1.0.0
- * @ClassName Practice1_1_2
+ * @ClassName Practice2
  * @Description
  * @createTime 2020年03月26日 20:42:05
  */
-public class Practice1_1_2 {
+public class Practice2 {
     public static void main(String[] args) {
         System.out.println((1 + 2.236)/2);
         System.out.println(1 + 2 + 3 + 4.0);

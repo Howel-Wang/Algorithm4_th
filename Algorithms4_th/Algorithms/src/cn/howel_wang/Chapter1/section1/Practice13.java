@@ -1,15 +1,13 @@
-package Practice1_1;
-
-import edu.princeton.cs.algs4.StdOut;
+package cn.howel_wang.Chapter1.section1;
 
 /**
  * @author howel
  * @version 1.0.0
- * @ClassName Practice1_1_13
+ * @ClassName Practice13
  * @Description
  * @createTime 2020年03月27日 18:26:01
  */
-public class Practice1_1_13 {
+public class Practice13 {
     public static void main(String[] args) {
 
         int[][] array1 = new int[10][10];

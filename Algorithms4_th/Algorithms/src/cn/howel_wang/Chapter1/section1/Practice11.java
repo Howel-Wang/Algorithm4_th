@@ -1,15 +1,15 @@
-package Practice1_1;
+package cn.howel_wang.Chapter1.section1;
 
 import edu.princeton.cs.algs4.StdOut;
 
 /**
  * @author howel
  * @version 1.0.0
- * @ClassName Practice1_1_11
+ * @ClassName Practice11
  * @Description 打印二维布尔数组
  * @createTime 2020年03月27日 00:13:41
  */
-public class Practice1_1_11 {
+public class Practice11 {
     public static void main(String[] args) {
         int rowLen = 6;
         int colLen = 7;

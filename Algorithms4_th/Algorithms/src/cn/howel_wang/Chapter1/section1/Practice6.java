@@ -1,4 +1,4 @@
-package Practice1_1;
+package cn.howel_wang.Chapter1.section1;
 
 import edu.princeton.cs.algs4.StdOut;
 /**
@@ -15,11 +15,11 @@ import edu.princeton.cs.algs4.StdOut;
 /**
  * @author howel
  * @version 1.0.0
- * @ClassName Practice1_1_6
+ * @ClassName Practice6
  * @Description
  * @createTime 2020年03月26日 22:51:21
  */
-public class Practice1_1_6 {
+public class Practice6 {
     public static void main(String[] args) {
         int g = 1;
         int f = 0;
