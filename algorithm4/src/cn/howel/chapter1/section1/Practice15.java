@@ -1,5 +1,7 @@
 package cn.howel.chapter1.section1;
 
+import edu.princeton.cs.algs4.StdOut;
+
 /**
  * @author howel
  * @version 1.0.0
@@ -10,7 +12,6 @@ public class Practice15 {
 
     public static int[] histogram(int[] a, int M) {
         int[] x = new int[M];
-        int count = 0;
         for (int i = 0; i < x.length; i++) {
             int tmp = 0;
             for (int i1 : a) {
@@ -27,7 +28,7 @@ public class Practice15 {
         int[] a = {0,1,2,3,4,5,6,7,8,9};
         int[] histogram = histogram(a, a.length);
         for (int i : histogram) {
-            System.out.println(i);
+            StdOut.println(i);
         }
     }
 
