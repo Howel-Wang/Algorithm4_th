@@ -2,6 +2,6 @@
 out/
 *.iml
 *.idea
-*.txt
 *.csv
 *.bin
+*.txt
