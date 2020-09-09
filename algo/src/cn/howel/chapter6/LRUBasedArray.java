@@ -11,6 +11,7 @@ import java.util.Map;
  */
 public class LRUBasedArray<T> {
 
+    // 定义缓存数组的长度
     private static final int DEFAULT_CAPACITY = (1 << 3);
 
     private int capacity;
@@ -26,7 +27,7 @@ public class LRUBasedArray<T> {
     }
 
     /**
-     *
+     * 初始化LRUBasedArray
      * @param capacity
      */
     public LRUBasedArray(int capacity) {
