@@ -3,7 +3,7 @@ package cn.howel.sorts;
 /**
  * @author howel
  * @version 1.0.0
- * @Description
+ * @Description 插入排序
  */
 public class InsertionSort {
 
@@ -13,15 +13,15 @@ public class InsertionSort {
         }
         for (int i = 0; i < n; ++i) {
             int value = a[i];
-            int j = 1;
+            int j = i- 1;
             for (; j >= 0; --j) {
-                if (a[j] < value) {
-                    a[j - 1] = a[j];
+                if (a[j] > value) {
+                    a[j + 1] = a[j];
                 } else {
                     break;
                 }
             }
-            a[j - 1] = value;
+            a[j + 1] = value;
         }
     }
 
