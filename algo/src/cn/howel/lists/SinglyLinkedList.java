@@ -1,7 +1,8 @@
-package cn.howel.chapter6;
+package cn.howel.lists;
 
 /**
- * 1）单链表的插入、删除、查找操作； 2）链表中存储的是int类型的数据；
+ * 1）单链表的插入、删除、查找操作；
+ * 2）链表中存储的是int类型的数据；
  */
 public class SinglyLinkedList {
 
@@ -36,12 +37,10 @@ public class SinglyLinkedList {
     }
 
     public void insertToHead(Node newNode) {
-        if (head == null) {
-            head = newNode;
-        } else {
+        if (head != null) {
             newNode.next = head;
-            head = newNode;
         }
+        head = newNode;
     }
 
     //顺序插入
@@ -204,7 +203,7 @@ public class SinglyLinkedList {
            return false;
         }*/
     }
-    //　判断是否为回文 
+    //　判断是否为回文
 
     public boolean palindrome() {
         if (head == null) {

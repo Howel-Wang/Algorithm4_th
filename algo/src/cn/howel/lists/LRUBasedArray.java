@@ -1,4 +1,4 @@
-package cn.howel.chapter6;
+package cn.howel.lists;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -137,7 +137,7 @@ public class LRUBasedArray<T> {
         }
 
         public static void testDefaultConstructor() {
-            System.out.println("======无参测试========");
+            System.out.println("=======无参测试========");
             LRUBasedArray<Integer> lru = new LRUBasedArray<>();
             lru.offer(1);
             lru.offer(2);
@@ -150,10 +150,13 @@ public class LRUBasedArray<T> {
             lru.offer(8);
             lru.offer(9);
             System.out.println(lru);
+            lru.offer(1);
+            System.out.println(lru);
         }
 
         public static void testSpecifiedConstructor(int capacity) {
-            System.out.println("======有参测试========");
+
+            System.out.println("=======有参测试========");
             LRUBasedArray<Integer> lru = new LRUBasedArray<>(capacity);
             lru.offer(1);
             System.out.println(lru);
@@ -173,6 +176,7 @@ public class LRUBasedArray<T> {
             System.out.println(lru);
             lru.offer(2);
             System.out.println(lru);
+
         }
     }
 }

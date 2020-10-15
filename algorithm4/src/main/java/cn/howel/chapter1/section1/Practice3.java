@@ -5,7 +5,8 @@ package cn.howel.chapter1.section1;
  * 。
  */
 
-import java.util.Scanner;
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdOut;
 
 /**
  * @author howel
@@ -16,14 +17,14 @@ import java.util.Scanner;
  */
 public class Practice3 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int a = in.nextInt();
-        int b = in.nextInt();
-        int c = in.nextInt();
+        In in = new In();
+        int a = in.readInt();
+        int b = in.readInt();
+        int c = in.readInt();
         if (a  == b && b == c) {
-            System.out.println("equal");
+            StdOut.println("equal");
         }else {
-            System.out.println("not equal");
+            StdOut.println("not equal");
         }
     }
 }

@@ -1,5 +1,6 @@
 package cn.howel.chapter1.section1;
 
+import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Scanner;
@@ -15,14 +16,14 @@ import java.util.Scanner;
  */
 public class Practice9 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int N = in.nextInt();
+        In in = new In();
+        int N = in.readInt();
         String s = "";
         for (int n = N; n > 0; n /= 2) {
             s = (n % 2) + s;
         }
         // Java内置的方法
-        StdOut.println(Integer.toBinaryString(N));
+        StdOut.println("Java内置方法：" + Integer.toBinaryString(N));
         StdOut.println(s);
     }
 }

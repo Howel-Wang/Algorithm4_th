@@ -1,4 +1,4 @@
-package cn.howel.chapter6;
+package cn.howel.lists;
 
 
 import java.util.Scanner;

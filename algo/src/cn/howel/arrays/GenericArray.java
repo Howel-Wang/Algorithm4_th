@@ -1,4 +1,4 @@
-package cn.howel.chapter5;
+package cn.howel.arrays;
 
 public class GenericArray<T> {
     private T[] data;
