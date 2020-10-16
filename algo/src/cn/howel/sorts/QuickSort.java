@@ -10,17 +10,8 @@ import java.util.List;
  */
 public class QuickSort {
 
-    public static int[] quickSort(int[] a,int n) {
-        if (a.length < 2) {
-            return a;
-        }else {
-            int temp = a[0];
-            for (int i = 1; i < a.length; i++) {
-                if (a[i] < temp) {
+    public static int[] quickSort(int[] a, int n) {
 
-                }
-            }
-        }
         return null;
     }
 

@@ -13,7 +13,7 @@ public class InsertionSort {
         }
         for (int i = 0; i < n; ++i) {
             int value = a[i];
-            int j = i- 1;
+            int j = i - 1;
             for (; j >= 0; --j) {
                 if (a[j] > value) {
                     a[j + 1] = a[j];
@@ -26,7 +26,7 @@ public class InsertionSort {
     }
 
     public static void main(String[] args) {
-        int[] array = {4,5,6,1,3,7,2};
+        int[] array = {4, 5, 6, 1, 3, 7, 2};
         for (int i : array) {
             System.out.printf("%d\t", i);
         }
