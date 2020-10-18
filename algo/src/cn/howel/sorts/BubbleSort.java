@@ -30,12 +30,12 @@ public class BubbleSort {
     public static void main(String[] args) {
         int[] array = {7, 5, 2, 3, 1, 4, 6};
         for (int i : array) {
-            System.out.printf("%d\t", i);
+            System.out.print(i + " ");
         }
         System.out.println();
         bubbleSort(array, array.length);
         for (int i : array) {
-            System.out.printf("%d\t", i);
+            System.out.print(i + " ");
         }
     }
 

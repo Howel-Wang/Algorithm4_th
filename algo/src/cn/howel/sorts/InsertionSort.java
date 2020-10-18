@@ -3,15 +3,18 @@ package cn.howel.sorts;
 /**
  * @author howel
  * @version 1.0.0
- * @Description 插入排序
+ * @Description 插入排序, 希尔排序
  */
 public class InsertionSort {
 
-    public static void insertionSort(int[] a, int n) {
-        if (n <= 1) {
+    /*
+        插入排序
+     */
+    public static void insertionSort(int[] a, int length) {
+        if (length <= 1) {
             return;
         }
-        for (int i = 0; i < n; ++i) {
+        for (int i = 0; i < length; ++i) {
             int value = a[i];
             int j = i - 1;
             for (; j >= 0; --j) {
@@ -25,15 +28,34 @@ public class InsertionSort {
         }
     }
 
+    /*
+        希尔排序
+     */
+    public static void shellSort(int[] arr, int length) {
+        int temp;
+        for (int step = length / 2; step >= 1; step /= 2) {
+            for (int i = step; i < length; i++) {
+                temp = arr[i];
+                int j = i - step;
+                while (j >= 0 && arr[j] > temp) {
+                    arr[j + step] = arr[j];
+                    j -= step;
+                }
+                arr[j + step] = temp;
+            }
+        }
+    }
+
     public static void main(String[] args) {
         int[] array = {4, 5, 6, 1, 3, 7, 2};
         for (int i : array) {
-            System.out.printf("%d\t", i);
+            System.out.print(i + " ");
         }
         System.out.println();
-        insertionSort(array, array.length);
+//        insertionSort(array, array.length);
+        shellSort(array, array.length);
         for (int i : array) {
-            System.out.printf("%d\t", i);
+            System.out.print(i + " ");
         }
     }
 

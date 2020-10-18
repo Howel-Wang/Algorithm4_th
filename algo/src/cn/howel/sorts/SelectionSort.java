@@ -29,12 +29,12 @@ public class SelectionSort {
     public static void main(String[] args) {
         int[] array = {3, 4, 2, 1, 5, 6, 7, 8};
         for (int i : array) {
-            System.out.printf("%d\t", i);
+            System.out.print(i + " ");
         }
         System.out.println();
         selectionSort(array, array.length);
         for (int i : array) {
-            System.out.printf("%d\t", i);
+            System.out.print(i + " ");
         }
     }
 
