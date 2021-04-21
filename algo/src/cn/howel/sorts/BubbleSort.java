@@ -33,9 +33,15 @@ public class BubbleSort {
             System.out.print(i + " ");
         }
         System.out.println();
-        bubbleSort(array, array.length);
-        for (int i : array) {
-            System.out.print(i + " ");
+        int i = 0;
+        long l1 = System.currentTimeMillis();
+        for (; i < 100000000; i++) {
+            bubbleSort(array, array.length);
+        }
+        long l2 = System.currentTimeMillis();
+        System.out.println("执行"+i+"次耗时（ms）： " + (l2 - l1));
+        for (int item : array) {
+            System.out.print(item + " ");
         }
     }
 

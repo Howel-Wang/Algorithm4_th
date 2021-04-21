@@ -1,6 +1,5 @@
 package cn.howel.arrays;
 
-
 public class Array {
 
     //定义整型数据data保存数据

@@ -62,14 +62,20 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
-        int[] a = {3, 4, 6, 2, 7, 1, 5};
+        int[] a = {7, 5, 2, 3, 1, 4, 6};
         for (int i : a) {
             System.out.print(i + " ");
         }
         System.out.println();
-        mergeSort(a, a.length);
-        for (int i : a) {
-            System.out.print(i + " ");
+        int i = 0;
+        long l1 = System.currentTimeMillis();
+        for (; i < 100000000; i++) {
+            mergeSort(a, a.length);
+        }
+        long l2 = System.currentTimeMillis();
+        System.out.println("执行"+i+"次耗时（ms）： " + (l2 - l1));
+        for (int item : a) {
+            System.out.print(item + " ");
         }
     }
 

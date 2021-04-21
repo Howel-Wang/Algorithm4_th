@@ -27,14 +27,20 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        int[] array = {3, 4, 2, 1, 5, 6, 7, 8};
+        int[] array = {7, 5, 2, 3, 1, 4, 6};
         for (int i : array) {
             System.out.print(i + " ");
         }
         System.out.println();
-        selectionSort(array, array.length);
-        for (int i : array) {
-            System.out.print(i + " ");
+        int i = 0;
+        long l1 = System.currentTimeMillis();
+        for (; i < 100000000; i++) {
+            selectionSort(array, array.length);
+        }
+        long l2 = System.currentTimeMillis();
+        System.out.println("执行"+i+"次耗时（ms）： " + (l2 - l1));
+        for (int item : array) {
+            System.out.print(item + " ");
         }
     }
 

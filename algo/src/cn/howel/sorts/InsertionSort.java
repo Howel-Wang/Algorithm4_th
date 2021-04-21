@@ -47,13 +47,19 @@ public class InsertionSort {
     }
 
     public static void main(String[] args) {
-        int[] array = {4, 5, 6, 1, 3, 7, 2};
+        int[] array = {7, 5, 2, 3, 1, 4, 6};
         for (int i : array) {
             System.out.print(i + " ");
         }
         System.out.println();
 //        insertionSort(array, array.length);
-        shellSort(array, array.length);
+        long l1 = System.currentTimeMillis();
+        for (int i = 0; i < 100000000; i++) {
+            shellSort(array, array.length);
+        }
+        long l2 = System.currentTimeMillis();
+        System.out.println("耗时（ms）： " + (l2 - l1));
+
         for (int i : array) {
             System.out.print(i + " ");
         }

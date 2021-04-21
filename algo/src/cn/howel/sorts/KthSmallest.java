@@ -45,7 +45,7 @@ public class KthSmallest {
     }
 
     public static void main(String[] args) {
-        int[] a = {3, 5, 1, 6, 4, 9, 8};
+        int[] a = {7, 5, 2, 3, 1, 4, 6};
         int kthsmallest = kthSmallest(a, 3);
         System.out.println(kthsmallest);
     }
