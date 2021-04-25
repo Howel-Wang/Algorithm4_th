@@ -22,30 +22,16 @@ import java.util.function.Consumer;
 public class practice01_05 {
 
     public static boolean oneEditAway(String first, String second) {
-        if (first == null) return false;
-        ArrayList<String> list1 = new ArrayList<>();
-        ArrayList<String> list2 = new ArrayList<>();
-        int l1 = first.length();
-        int l2 = second.length();
-        int diff = l1 - l2 > 0 ? l1 - l2 : l2 - l1;
-        if (diff > 1) {
-            return false;
-        } else {
-            if (l1 >= l2) {
-                for (int i = 0; i < l1; i++) {
-                    list1.add(first.substring(i, i + 1));
-                }
-                for (int i = 0; i < l2; i++) {
-                    list2.add(second.substring(i, i + 1));
-                }
-                for (int i = 0; i < l2; i++) {
-                    if (list1.get(i) == list2.get(i)) {
-
-                    } else {
-                        list1.remove(list1.get(i));
-                        return list1.equals(list2);
-                    }
-                }
+        if (first == null || second == null) return false;
+        int len1 = first.length();
+        int len2 = second.length();
+        if (Math.abs(len1 - len2) > 1) return false;
+        // 保证每次较长的字符串在前面
+        if (len2 > len1) return oneEditAway(second, first);
+        for (int i = 0; i < len2; i++) {
+            if (first.charAt(i) != second.charAt(i)) {
+                // 长度相同的话，就从下一个字符开始比较，不同的话，就从当前字符开始比较。（以短字符为主）
+                return first.substring(i + 1).equals(second.substring(len1 == len2 ? i + 1 : i));
             }
         }
         return true;
